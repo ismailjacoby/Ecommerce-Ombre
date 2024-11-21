@@ -4,10 +4,12 @@ import { BrowserModule, provideClientHydration, withEventReplay } from '@angular
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {FaIconComponent} from "@fortawesome/angular-fontawesome";
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NavbarComponent
   ],
     imports: [
         BrowserModule,
