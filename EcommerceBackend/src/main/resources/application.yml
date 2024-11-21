@@ -1,6 +1,6 @@
 spring:
   datasource:
-    url: jdbc:postgresql://db:5432/ecommerce
+    url: jdbc:postgresql://localhost:5432/ecommerce
     username: postgres
     password: password
     driver-class-name: org.postgresql.Driver
@@ -13,8 +13,6 @@ spring:
       hibernate:
         format_sql: true
         dialect: org.hibernate.dialect.PostgreSQLDialect
-      database: postgresqlmail
-
 
 server:
   port: 8080
